@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Com Tibco Bwce Banq Account Service Application
+Bundle-Name: BanqIO Account Service
 Bundle-SymbolicName: com.tibco.bwce.banq.account.service.application
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: TIBCO Software Inc.
