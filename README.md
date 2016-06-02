@@ -1,6 +1,6 @@
 # BANQ.IO Account Service
 
-![alt tag](/BanqIOAccountService.png)
+![alt tag](/AccountServiceProcess.png)
 
 ## Process Description
 
