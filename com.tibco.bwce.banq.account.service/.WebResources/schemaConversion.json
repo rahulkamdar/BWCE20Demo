@@ -1,0 +1,17 @@
+{"records": [
+    {
+        "jsonSchemaLocation": "/com.tibco.bwce.banq.account.service/Service Descriptors/com.tibco.bwce.banq.account.service.accounts-accounts.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://tns.tibco.com/bw/REST"
+    },
+    {
+        "jsonSchemaLocation": "/com.tibco.bwce.banq.account.service/Service Descriptors/com.tibco.bwce.banq.account.service.accounts-accounts.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.org/AccountSchema"
+    },
+    {
+        "jsonSchemaLocation": "/com.tibco.bwce.banq.account.service/Service Descriptors/com.tibco.bwce.banq.account.service.accounts-accounts.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://xmlns.example.com/accounts/parameters"
+    }
+]}

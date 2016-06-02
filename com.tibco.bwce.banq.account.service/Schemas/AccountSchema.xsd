@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/AccountSchema" xmlns:tns="http://www.example.org/AccountSchema" elementFormDefault="qualified">
+
+    <element name="AccountDetails" type="tns:AccountDetailsType"></element>
+
+    <complexType name="AccountDetailsType">
+    	<sequence>
+    		<element name="AccountNumber" type="string"></element>
+    		<element name="Amount" type="string"></element>
+    		<element name="AccountType" type="string"></element>
+    		<element name="CountryName" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="CustomerDetails" type="tns:CustomerDetailsType"></element>
+
+    <complexType name="CustomerDetailsType">
+    	<sequence>
+    		<element name="CustomerName" type="string"></element>
+    		<element name="CustomerId" type="string"></element>
+    		<element ref="tns:AccountDetails" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+</schema>

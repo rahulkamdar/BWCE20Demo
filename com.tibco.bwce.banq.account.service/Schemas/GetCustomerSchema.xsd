@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/GetCustomerSchema" xmlns:tns="http://www.example.org/GetCustomerSchema" elementFormDefault="qualified" xmlns:Q1="http://www.example.org/AccountSchema">
+
+    <import namespace="http://www.example.org/AccountSchema"></import>
+    <element name="CustomerDetails" type="tns:CustomerDetailsType"></element>
+
+    <complexType name="CustomerDetailsType">
+    	<sequence>
+    		<element name="id" type="string"></element>
+    		<element name="region" type="string" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+    
+    <element name="CustomerName" type="string"></element>
+
+    <element name="CustomerAccountDetails" type="tns:CustomerAccountDetailsType"></element>
+
+    <complexType name="CustomerAccountDetailsType">
+    	<sequence>
+    		<element ref="Q1:AccountDetails" minOccurs="1" maxOccurs="unbounded"></element>
+    	</sequence>
+    </complexType>
+</schema>

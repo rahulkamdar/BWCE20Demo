@@ -1,0 +1,7 @@
+{
+    "records": [],
+    "resources": [{
+        "location": "Service Descriptors/com.tibco.bwce.banq.account.service.accounts-accounts.json",
+        "type": "generated"
+    }]
+}
