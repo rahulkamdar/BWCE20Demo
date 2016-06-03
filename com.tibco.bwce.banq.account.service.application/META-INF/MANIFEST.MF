@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: BanqIO Account Service
+Bundle-Name: Com Tibco Bwce Banq Account Service Application
 Bundle-SymbolicName: com.tibco.bwce.banq.account.service.application
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: TIBCO Software Inc.
 TIBCO-BWCE-Edition-Target: docker
 TIBCO-BW-Edition: bwcf
-TIBCO-BW-ConfigProfile: META-INF/Local.substvar
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
 TIBCO-BW-Application: META-INF/TIBCO.xml
 TIBCO-BW-Version: 2.0.0 V31 2016-05-02
