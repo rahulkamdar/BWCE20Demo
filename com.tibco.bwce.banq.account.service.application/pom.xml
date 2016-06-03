@@ -44,35 +44,6 @@
         </configuration>
       </plugin>
       <plugin>
-        <groupId>org.cloudfoundry</groupId>
-        <artifactId>cf-maven-plugin</artifactId>
-        <version>1.1.3</version>
-        <configuration>
-          <server>${bwpcf.server}</server>
-          <target>${bwpcf.target}</target>
-          <trustSelfSignedCerts>${bwpcf.trustSelfSignedCerts}</trustSelfSignedCerts>
-          <org>${bwpcf.org}</org>
-          <space>${bwpcf.space}</space>
-          <appname>${bwpcf.appName}</appname>
-          <url>${bwpcf.url}</url>
-          <instances>${bwpcf.instances}</instances>
-          <skip>false</skip>
-          <memory>${bwpcf.memory}</memory>
-          <buildpack>${bwpcf.buildpack}</buildpack>
-          <env>
-            <BW_PROFILE>${bwpcf.env.0}</BW_PROFILE>
-          </env>
-          <services>
-            <service>
-              <name>PostgresDBService</name>
-              <label></label>
-              <version></version>
-              <plan></plan>
-            </service>
-          </services>
-        </configuration>
-      </plugin>
-      <plugin>
         <groupId>io.fabric8</groupId>
         <artifactId>docker-maven-plugin</artifactId>
         <version>0.14.2</version>
@@ -111,6 +82,35 @@
         <version>2.2.102</version>
         <configuration>
           <skip>false</skip>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.cloudfoundry</groupId>
+        <artifactId>cf-maven-plugin</artifactId>
+        <version>1.1.3</version>
+        <configuration>
+          <server>${bwpcf.server}</server>
+          <target>${bwpcf.target}</target>
+          <trustSelfSignedCerts>${bwpcf.trustSelfSignedCerts}</trustSelfSignedCerts>
+          <org>${bwpcf.org}</org>
+          <space>${bwpcf.space}</space>
+          <appname>${bwpcf.appName}</appname>
+          <url>${bwpcf.url}</url>
+          <instances>${bwpcf.instances}</instances>
+          <skip>false</skip>
+          <memory>${bwpcf.memory}</memory>
+          <buildpack>${bwpcf.buildpack}</buildpack>
+          <env>
+            <BW_PROFILE>${bwpcf.env.0}</BW_PROFILE>
+          </env>
+          <services>
+            <service>
+              <name>PostgresDBService</name>
+              <label></label>
+              <version></version>
+              <plan></plan>
+            </service>
+          </services>
         </configuration>
       </plugin>
     </plugins>
