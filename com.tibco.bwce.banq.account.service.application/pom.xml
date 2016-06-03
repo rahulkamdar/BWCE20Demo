@@ -100,17 +100,6 @@
           <skip>false</skip>
           <memory>${bwpcf.memory}</memory>
           <buildpack>${bwpcf.buildpack}</buildpack>
-          <env>
-            <BW_PROFILE>${bwpcf.env.0}</BW_PROFILE>
-          </env>
-          <services>
-            <service>
-              <name>PostgresDBService</name>
-              <label></label>
-              <version></version>
-              <plan></plan>
-            </service>
-          </services>
         </configuration>
       </plugin>
     </plugins>
