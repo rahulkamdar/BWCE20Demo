@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <packaging:packageUnit xmlns:packaging="http://schemas.tibco.com/tra/model/core/PackagingModel" xmlns:tibprop="http://ns.tibco.com/bw/property" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <packaging:description></packaging:description>
+  <packaging:description>Banq IO Application</packaging:description>
   <packaging:properties>
     <packaging:property>
       <packaging:name>//com.tibco.bwce.banq.account.service//BW.APPNODE.NAME</packaging:name>
