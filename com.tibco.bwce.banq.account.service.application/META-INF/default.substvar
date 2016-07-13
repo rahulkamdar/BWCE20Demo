@@ -67,7 +67,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//com.tibco.bwce.banq.account.service//DB_PASSWORD</name>
-			<value>#!khr5T2oI6DBpYv1b4xOEdY3KM6lTGxvNo6EmL5QKCzk=</value>
+			<value>#!72l/lWOFteubyh2At9WJFMRoNYiSOigHmDm0jeHaskc=</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Password</type>
